@@ -28,37 +28,6 @@
 
 ---
 
-### Generación de Hash
-
-Se utilizó:
-
-```csharp
-BCrypt.Net.BCrypt.HashPassword()
-```
-
-para generar un hash seguro antes de almacenar la contraseña
-
-### Verificación de Credenciales
-
-Se utilizó:
-
-```csharp
-BCrypt.Net.BCrypt.Verify()
-```
-
-para comparar la contraseña ingresada con el hash almacenado en la base de datos
-
-### Resultado Esperado
-
-```text
-Usuario: admin
-Contraseña: 1234
-
-Bienvenido admin
-```
-
----
-
 ## Configuración de la Base de Datos
 
 Importar el archivo:
